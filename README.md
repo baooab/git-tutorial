@@ -18,3 +18,10 @@ git checkout -b v0.0.1
 # 将本地的新分支推送到远程仓库
 git push --set-upstream origin v0.0.1
 ```
+
+```
+# 删除本地分支 v0.0.1
+git branch -d v0.0.1
+# 删除远程分支 v0.0.1
+git push origin --delete v0.0.1
+```
