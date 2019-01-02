@@ -25,3 +25,15 @@ git branch -d v0.0.1
 # 删除远程分支 v0.0.1
 git push origin --delete v0.0.1
 ```
+
+```
+# 获取远程所有分支列表
+git fetch
+# 获取远程分支 v0.0.1
+git fetch origin v0.0.1
+```
+
+```
+# 在远程分支 v0.0.1 的基础上，创建一个新的本地分支
+git checkout -b v0.0.1 origin/v0.0.1
+```
