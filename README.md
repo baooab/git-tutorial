@@ -1,6 +1,6 @@
-# Git Commands
+# Git 远程指令
 
-Git commands list.
+常用远程指令列表：
 
 ```
 # 查看所有分支（包括远程分支）
