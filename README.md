@@ -8,11 +8,11 @@ git branch -a
 ```
 
 ```
-# 新建分支 v0.0.1 并切换（分支已有，会报错，命令执行失败）
-# 等同于
+# 新建分支 v0.0.1 并切换（如果分支已有，该命令会报错，执行失败）
+git checkout -b v0.0.1
+# 上面的命令等同于
 # git branch v0.0.1
 # git checkout v0.0.1
-git checkout -b v0.0.1
 
 # 将本地的新分支推送到远程仓库
 git push --set-upstream origin v0.0.1
