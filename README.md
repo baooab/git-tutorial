@@ -51,7 +51,7 @@ git tag -d v0.0.1
 git push origin :refs/tags/v0.0.1
 ```
 
-参考资料
+参考资料：
 
 1. [連猴子都能懂的Git入門指南](https://backlog.com/git-tutorial/tw/stepup/stepup2_2.html)
 2. [Git远程操作详解](http://www.ruanyifeng.com/blog/2014/06/git_remote.html), by 阮一峰
