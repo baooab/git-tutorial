@@ -24,6 +24,9 @@ git branch -d v0.0.1
 
 # 删除远程分支 v0.0.1
 git push origin --delete v0.0.1
+
+# 如果远程分支已被删除，执行上面的命令就会失败，需要执行下面的命令，删除本地跟踪
+git branch -dr origin/v0.0.1
 ```
 
 ```
@@ -56,3 +59,4 @@ git push origin :refs/tags/v0.0.1
 1. [連猴子都能懂的Git入門指南](https://backlog.com/git-tutorial/tw/stepup/stepup2_2.html)
 2. [Git远程操作详解](http://www.ruanyifeng.com/blog/2014/06/git_remote.html), by 阮一峰
 3. [git 打标签并推送tag到托管服务器](http://yijiebuyi.com/blog/007269d04d5096d9397ce3daf9d84c48.html), by 一介布衣
+4. [git怎么删除远程分支](https://segmentfault.com/q/1010000008841093), by segmentfault.com
